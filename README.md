@@ -1,4 +1,4 @@
-This project focuses on detecting traffic jams in Berlin using real-time sensor data from the Telraam API. The main goal is to identify traffic anomalies across different road segments and time intervals to improve traffic management, public safety, and urban planning.
+This project focuses on detecting traffic jams in Berlin using real-time sensor data from the [Telraam Documentation](https://documenter.getpostman.com/view/8210376/TWDRqyaV). The main goal is to identify traffic anomalies across different road segments and time intervals to improve traffic management, public safety, and urban planning.
 
 The methodology involves collecting and processing hourly and quarterly aggregated traffic data, including vehicle counts and speed information. Key limitations include the absence of raw image or video data and variable sensor uptime, which can lead to missed data. Data enrichment with TomTom Georeverse API was used to add street names to segment coordinates. Preprocessing steps included excluding data with zero uptime, creating time intervals (Night, Morning, Midday, Afternoon, Evening), and normalizing car counts by uptime.
 
